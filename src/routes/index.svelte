@@ -1,14 +1,15 @@
-<script>
-  let title = "Ninja Gaming Guides";
-
-  const updateTitle = () => {
-    title = "Demon Slayer Guides";
-  };
-</script>
-
-<h1>{title}</h1>
 <p>
-  Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
+  <a href="/about">About us</a>
 </p>
-<button on:click={updateTitle}>change title</button>
-<input type="text" name="title" bind:value={title} />
+
+<style>
+  p {
+    color: #eee;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  a {
+    color: rgb(17, 212, 115);
+  }
+</style>
